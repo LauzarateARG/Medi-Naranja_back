@@ -17,7 +17,7 @@ app.use(setHeaders);
 app.use("/api", routes);
 
 app.get("/",(req,res)=>{
-  res.send("funcoina")
+  res.send("Servidor Corriendo correctamente! ")
 })
 //---------------------------------------------------------------------------------------------------------
 //Control de errores
